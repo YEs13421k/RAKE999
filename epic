@@ -133,25 +133,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").FlareRE.StunRE:FireServer(unpack(args))
-
-wait(0.1)
-local args = {
-    [1] = workspace.Rake.Ribs,
-    [2] = workspace.Rake.Humanoid,
-    [3] = 0
-}
-
-game:GetService("ReplicatedStorage").PanRE.DamageRE:FireServer(unpack(args))
-
-wait(0.1)
-local args = {
-    [1] = workspace.Rake.FakeHead,
-    [2] = workspace.Rake.Humanoid,
-    [3] = 0
-}
-
-game:GetService("ReplicatedStorage").SnowballRE.DamageRE:FireServer(unpack(args))
-
 end
     else
         _G.Toggle = false
@@ -174,25 +155,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").FlareRE.StunRE:FireServer(unpack(args))
-
-wait(0.1)
-local args = {
-    [1] = workspace.Rake.Ribs,
-    [2] = workspace.Rake.Humanoid,
-    [3] = 0
-}
-
-game:GetService("ReplicatedStorage").PanRE.DamageRE:FireServer(unpack(args))
-
-wait(0.1)
-local args = {
-    [1] = workspace.Rake.FakeHead,
-    [2] = workspace.Rake.Humanoid,
-    [3] = 0
-}
-
-game:GetService("ReplicatedStorage").SnowballRE.DamageRE:FireServer(unpack(args))
-
 end
     end
 end)
